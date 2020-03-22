@@ -8,9 +8,15 @@ npm-debug.log
 yarn-error.log
 yarn.lock
 
-# misc
+# Misc
 #
-.expo/
+.expo
 .vscode/
-lib/
+docs/
+examples/
+src/
+post-version.sh
 .watchmanconfig
+tsconfig.json
+tslint.json
+

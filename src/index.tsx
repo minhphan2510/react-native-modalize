@@ -441,7 +441,7 @@ export class Modalize<FlatListItem = any, SectionListItem = any> extends React.C
             destSnapPoint = snap;
             this.willCloseModalize = false;
 
-            if (alwaysOpen) {
+            if (alwaysOpen && snapPoint && endOffsetY > snapPoint) {
               destSnapPoint = (modalHeight || 0) - alwaysOpen;
             }
 
